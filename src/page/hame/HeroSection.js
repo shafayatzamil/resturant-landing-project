@@ -44,14 +44,16 @@ const HeroSection = () => {
           </div>
         </div>
       </div>
-      <section className="h-56 mt-6 bg-gradient-to-t from-indigo-300 to-state-100">
+      <section className="h-56 w-full mt-6 bg-gradient-to-t from-indigo-300 to-state-100">
         <div className="relative">
           <img src={dashboardImage} alt="" />
-          <img
-            src={growthImage}
-            className="absolute w-40 top-28 right-24 "
-            alt=""
-          />
+          <div>
+            <img
+              src={growthImage}
+              className="absolute w-40 top-28 right-24 "
+              alt=""
+            />
+          </div>
           <img
             src={progressImage}
             className="w-48 absolute top-32 left-24"
