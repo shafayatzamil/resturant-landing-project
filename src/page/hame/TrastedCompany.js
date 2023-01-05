@@ -49,7 +49,7 @@ const TrastedCompany = () => {
               {" "}
               <img
                 src={speedIcon}
-                className="w-10 p-1 bg-indigo-100 rounded"
+                className="w-10 h-10 p-2 bg-indigo-100 rounded-lg"
                 alt=""
               />
             </div>
@@ -61,7 +61,7 @@ const TrastedCompany = () => {
           <div className="flex justify-center align-center gap-2">
             <img
               src={easytoLearnIcon}
-              className="w-10 p-1 bg-indigo-100 rounded"
+              className="w-10 p-2 bg-indigo-100 rounded-lg"
               alt=""
             />
             <h4 className="text-center text-xs">Easy to learn</h4>
@@ -69,7 +69,7 @@ const TrastedCompany = () => {
           <div className="flex justify-center align-center gap-2">
             <img
               src={speedIcon}
-              className="w-10 p-1 gap-2  bg-indigo-100 rounded"
+              className="w-10 p-2 gap-2  bg-indigo-100 rounded-lg"
               alt=""
             />
             <h4 className="text-center text-xs">Feature rich</h4>
