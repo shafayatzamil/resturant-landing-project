@@ -1,4 +1,5 @@
 import React from "react";
+import Analytics from "./Analytics";
 import HeroSection from "./HeroSection";
 import Managment from "./Managment";
 import Navbar from "./Navbar";
@@ -11,6 +12,7 @@ const Home = () => {
       <HeroSection />
       <TrastedCompany />
       <Managment />
+      <Analytics />
     </div>
   );
 };
