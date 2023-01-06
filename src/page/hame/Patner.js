@@ -7,7 +7,7 @@ import handIcon from "../../image/section 8/Easy.png";
 
 const Patner = () => {
   return (
-    <div className="my-28">
+    <div className="mb-28 mt-44">
       <h2 className="text-3xl text-center text-[#181E28] mb-2">
         Partners and Integrations
       </h2>
