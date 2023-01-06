@@ -15,7 +15,7 @@ const Pricing = () => {
       </h4>
       {/* all box of pricing */}
 
-      <div className="flex max-w-3xl justify-center  items-center mx-auto gap-2 mb-12">
+      <div className="flex max-w-3xl justify-center  items-center mx-auto gap-2 mb-16">
         {/* single box of procing */}
         <div className="rounded  p-2">
           <h5 className="text-base">Single</h5>
@@ -313,9 +313,26 @@ const Pricing = () => {
             </div>
             <button
               style={{ backgroundColor: "#2E384E" }}
-              className="rounded-lg w-36 px-3 py-1 mt-6 text-white"
+              className="rounded-lg w-40 px-3 py-1 mt-6 text-white"
             >
               {" "}
+              <span className="">
+                {" "}
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="white"
+                  viewBox="0 0 24 24"
+                  strokeWidth={1.5}
+                  stroke="black"
+                  className="w-5  inline mr-1 "
+                >
+                  <path
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    d="M21.75 6.75v10.5a2.25 2.25 0 01-2.25 2.25h-15a2.25 2.25 0 01-2.25-2.25V6.75m19.5 0A2.25 2.25 0 0019.5 4.5h-15a2.25 2.25 0 00-2.25 2.25m19.5 0v.243a2.25 2.25 0 01-1.07 1.916l-7.5 4.615a2.25 2.25 0 01-2.36 0L3.32 8.91a2.25 2.25 0 01-1.07-1.916V6.75"
+                  />
+                </svg>
+              </span>
               Request an offer
             </button>
           </div>

@@ -70,7 +70,7 @@ const Managment = () => {
                 alt=""
               />
               <div className="h-36 w-36  bg-slate-200 absolute rounded-2xl top-36 -left-6  -z-50 "></div>
-              <div className="h-52 w-52  bg-slate-200 absolute rounded-2xl -top-16 -right-32  -z-50 "></div>
+              <div className="h-52 w-52  bg-slate-200 absolute rounded-2xl -top-16 -right-28  -z-50 "></div>
             </div>
           </div>
         </div>
