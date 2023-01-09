@@ -18,12 +18,12 @@ const TrastedCompany = () => {
         >
           SOFTWARE BUILT FOR AND TRUSTED BY 250+ COMAPNY
         </h2>
-        <div className="flex justify-center align=center gap-10">
-          <img src={compani5} className="w-16 h-3" alt="" />
-          <img src={compani4} className="w-16 h-4" alt="" />
-          <img src={compani2} className="w-16  h-5" alt="" />
-          <img src={compani3} className="w-16 h-5" alt="" />
-          <img src={compani1} className="w-16 h-5" alt="" />
+        <div className="flex justify-center items-center gap-10">
+          <img src={compani5} className="w-20 h-3" alt="" />
+          <img src={compani4} className="w-20 h-5" alt="" />
+          <img src={compani2} className="w-20  h-6" alt="" />
+          <img src={compani3} className="w-20 h-6" alt="" />
+          <img src={compani1} className="w-20 h-6" alt="" />
         </div>
       </div>
 

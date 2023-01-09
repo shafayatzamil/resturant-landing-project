@@ -63,7 +63,7 @@ const SuceessfulStories = () => {
         </div>
       </div>
       {/* platform boost the buissness */}
-      <div className="py-12 bg-gradient-to-t from-indigo-300 to-state-100 mb-12 relative ">
+      <div className="py-12 bg-gradient-to-t from-indigo-300 to-state-100 pb-12 relative ">
         <h3 className="text-center text-2xl mb-2">
           {" "}
           Let platform boost your business!

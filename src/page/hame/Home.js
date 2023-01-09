@@ -1,6 +1,7 @@
 import React from "react";
 import Analytics from "./Analytics";
 import Comunication from "./Comunication";
+import Footer from "./Footer";
 import HeroSection from "./HeroSection";
 import Managment from "./Managment";
 import Navbar from "./Navbar";
@@ -23,6 +24,7 @@ const Home = () => {
       <Testomonial />
       <Patner />
       <SuceessfulStories />
+      <Footer />
     </div>
   );
 };
