@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const Navbar = () => {
   return (
@@ -8,17 +9,22 @@ const Navbar = () => {
         <ul className="flex gap-5">
           <li>About us</li>
           <li>Features</li>
+
           <li>Testomonials</li>
+
           <li>integrations</li>
           <li>Pricing</li>
         </ul>
       </div>
       <div className="">
         <button className="mr-5">Sign Up</button>
-        <button className="border rounded-lg border-cyan-200 px-5 py-2">
+        <Link to="dashboard">
           {" "}
-          Get started
-        </button>
+          <button className="border rounded-lg border-cyan-200 px-5 py-2">
+            {" "}
+            Get started
+          </button>
+        </Link>
       </div>
     </nav>
   );

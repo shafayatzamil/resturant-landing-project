@@ -7,7 +7,10 @@ import person5 from "../../image/section 7/person 7.png";
 
 const Testomonial = () => {
   return (
-    <div className="mt-20 mb-20 bg-gradient-to-t from-indigo-300 to-state-100 h-72 relative ">
+    <div
+      name="testomonial"
+      className="mt-20 mb-20 bg-gradient-to-t from-indigo-300 to-state-100 h-72 relative "
+    >
       <h5 className="text-center mt-12 text-[10px] tracking-widest text-[#9798AA]">
         TESTIMONIALS
       </h5>
