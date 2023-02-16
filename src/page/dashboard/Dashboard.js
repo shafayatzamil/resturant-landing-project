@@ -10,9 +10,9 @@ const Dashboard = () => {
           type="checkbox"
           className="drawer-toggle "
         />
-        <div className="drawer-content bg-gray-100">
+        <div className="drawer-content bg-gray-200">
         {/* nav bar of search */}
-          <div className="navbar bg-gray-100">
+          <div className="navbar bg-gray-200">
             <div className="navbar-start">
               <div className="form-control border-b-2 border-gray-300 w-96">
                   <input type="text" placeholder="🔎 Search" className="input rounded-none input-sm" />
@@ -36,7 +36,7 @@ const Dashboard = () => {
         </div>
         <div className="drawer-side ">
           <label htmlFor="dashboard-sidebar" className="drawer-overlay"></label>
-          <ul className="menu p-2 overflow-y-auto w-44 bg-white text-sm font-semibold relative">
+          <ul className="menu p-2 overflow-y-auto w-44 bg-white text-sm  font-semibold relative">
             <li>
               {" "}
               <Link to="/">
@@ -71,7 +71,10 @@ const Dashboard = () => {
             </div>
             <h5 className="text-[12px] mr-2" >Shafayat zamil</h5>
             
-              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" className="inline-block w-5 h-5 stroke-current"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 12h.01M12 12h.01M19 12h.01M6 12a1 1 0 11-2 0 1 1 0 012 0zm7 0a1 1 0 11-2 0 1 1 0 012 0zm7 0a1 1 0 11-2 0 1 1 0 012 0z"></path></svg>
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+  <path stroke-linecap="round" stroke-linejoin="round" d="M12 6.75a.75.75 0 110-1.5.75.75 0 010 1.5zM12 12.75a.75.75 0 110-1.5.75.75 0 010 1.5zM12 18.75a.75.75 0 110-1.5.75.75 0 010 1.5z" />
+</svg>
+
             </div>
 
           </ul>
