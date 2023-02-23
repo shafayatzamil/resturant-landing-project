@@ -1,5 +1,5 @@
 import React from 'react';
-import MyLocation from './MyLocation';
+
 
 const Restaurants = () => {
     return (
