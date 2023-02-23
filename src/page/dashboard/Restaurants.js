@@ -1,4 +1,5 @@
 import React from 'react';
+import MyLocation from './MyLocation';
 
 const Restaurants = () => {
     return (
@@ -135,8 +136,16 @@ const Restaurants = () => {
 
             </div>
             {/* map page dont touch now */}
-            <div>
-                this is map
+            <div className='-mt-12'>
+                <iframe title='location'
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d922.4404865817828!2d91.80406522857352!3d22.36261575979807!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x30acd8f0f0b0326d%3A0x73e15709d8d8790f!2sYousuf%20Chowdhury%20Building!5e0!3m2!1sen!2sbd!4v1677187280579!5m2!1sen!2sbd"
+        width="300"
+        height="550"
+        style={{ border: "0" ,backgroundColor:"snow" }}
+        allowfullscreen="true"
+        allowtransparency="true"
+        loading="lazy"
+      ></iframe>        
             </div>
         </div>
     );
