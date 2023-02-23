@@ -21,7 +21,7 @@ const Pricing = () => {
           <h5 className="text-base">Single</h5>
           <h4 className="mb-3">
             <span className="text-3xl">$10</span>
-            <span class="text-[12px]"> \month</span>
+            <span className="text-[12px]"> \month</span>
           </h4>
           <p className="text-xs mb-4">
             Best choice for your restaurant! Install and start deliveries today!
@@ -34,13 +34,13 @@ const Pricing = () => {
                 xmlns="http://www.w3.org/2000/svg"
                 fill="#D9EBD1"
                 viewBox="0 0 24 24"
-                stroke-width="1.5"
+                strokeWidth="1.5"
                 stroke="#80C45F"
-                class="w-6 h-6"
+                className="w-6 h-6"
               >
                 <path
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
                   d="M9 12.75L11.25 15 15 9.75M21 12a9 9 0 11-18 0 9 9 0 0118 0z"
                 />
               </svg>
@@ -51,13 +51,13 @@ const Pricing = () => {
                 xmlns="http://www.w3.org/2000/svg"
                 fill="#D9EBD1"
                 viewBox="0 0 24 24"
-                stroke-width="1.5"
+                strokeWidth="1.5"
                 stroke="#80C45F"
-                class="w-6 h-6"
+                className="w-6 h-6"
               >
                 <path
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
                   d="M9 12.75L11.25 15 15 9.75M21 12a9 9 0 11-18 0 9 9 0 0118 0z"
                 />
               </svg>
@@ -68,13 +68,13 @@ const Pricing = () => {
                 xmlns="http://www.w3.org/2000/svg"
                 fill="#D9EBD1"
                 viewBox="0 0 24 24"
-                stroke-width="1.5"
+                strokeWidth="1.5"
                 stroke="#80C45F"
-                class="w-6 h-6"
+                className="w-6 h-6"
               >
                 <path
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
                   d="M9 12.75L11.25 15 15 9.75M21 12a9 9 0 11-18 0 9 9 0 0118 0z"
                 />
               </svg>
@@ -85,13 +85,13 @@ const Pricing = () => {
                 xmlns="http://www.w3.org/2000/svg"
                 fill="#D9EBD1"
                 viewBox="0 0 24 24"
-                stroke-width="1.5"
+                strokeWidth="1.5"
                 stroke="#80C45F"
-                class="w-6 h-6"
+                className="w-6 h-6"
               >
                 <path
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
                   d="M9 12.75L11.25 15 15 9.75M21 12a9 9 0 11-18 0 9 9 0 0118 0z"
                 />
               </svg>
@@ -111,7 +111,7 @@ const Pricing = () => {
           <h5 className="text-base">Small chain </h5>
           <h4 className="mb-3">
             <span className="text-3xl">$50</span>
-            <span class="text-[12px]"> \month</span>
+            <span className="text-[12px]"> \month</span>
           </h4>
           <p className="text-xs mb-4 ">
             Grow or expand you business like never befor with our advance tools
@@ -124,13 +124,13 @@ const Pricing = () => {
                 xmlns="http://www.w3.org/2000/svg"
                 fill="#D9EBD1"
                 viewBox="0 0 24 24"
-                stroke-width="1.5"
+                strokeWidth="1.5"
                 stroke="#80C45F"
-                class="w-6 h-6"
+                className="w-6 h-6"
               >
                 <path
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
                   d="M9 12.75L11.25 15 15 9.75M21 12a9 9 0 11-18 0 9 9 0 0118 0z"
                 />
               </svg>
@@ -141,13 +141,13 @@ const Pricing = () => {
                 xmlns="http://www.w3.org/2000/svg"
                 fill="#D9EBD1"
                 viewBox="0 0 24 24"
-                stroke-width="1.5"
+                strokeWidth="1.5"
                 stroke="#80C45F"
-                class="w-6 h-6"
+                className="w-6 h-6"
               >
                 <path
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
                   d="M9 12.75L11.25 15 15 9.75M21 12a9 9 0 11-18 0 9 9 0 0118 0z"
                 />
               </svg>
@@ -158,13 +158,13 @@ const Pricing = () => {
                 xmlns="http://www.w3.org/2000/svg"
                 fill="#D9EBD1"
                 viewBox="0 0 24 24"
-                stroke-width="1.5"
+                strokeWidth="1.5"
                 stroke="#80C45F"
-                class="w-6 h-6"
+                className="w-6 h-6"
               >
                 <path
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
                   d="M9 12.75L11.25 15 15 9.75M21 12a9 9 0 11-18 0 9 9 0 0118 0z"
                 />
               </svg>
@@ -175,13 +175,13 @@ const Pricing = () => {
                 xmlns="http://www.w3.org/2000/svg"
                 fill="#D9EBD1"
                 viewBox="0 0 24 24"
-                stroke-width="1.5"
+                strokeWidth="1.5"
                 stroke="#80C45F"
-                class="w-6 h-6"
+                className="w-6 h-6"
               >
                 <path
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
                   d="M9 12.75L11.25 15 15 9.75M21 12a9 9 0 11-18 0 9 9 0 0118 0z"
                 />
               </svg>
@@ -192,13 +192,13 @@ const Pricing = () => {
                 xmlns="http://www.w3.org/2000/svg"
                 fill="#D9EBD1"
                 viewBox="0 0 24 24"
-                stroke-width="1.5"
+                strokeWidth="1.5"
                 stroke="#80C45F"
-                class="w-6 h-6"
+                className="w-6 h-6"
               >
                 <path
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
                   d="M9 12.75L11.25 15 15 9.75M21 12a9 9 0 11-18 0 9 9 0 0118 0z"
                 />
               </svg>
@@ -217,7 +217,7 @@ const Pricing = () => {
           <h5 className="text-base">Enterprise</h5>
           <h4 className="mb-3">
             <span className="text-3xl">$75+</span>
-            <span class="text-[12px]"> \month</span>
+            <span className="text-[12px]"> \month</span>
           </h4>
           <p className="text-xs mb-4">
             Talk to us, so we can create an exact pricing model to fit your
@@ -231,13 +231,13 @@ const Pricing = () => {
                 xmlns="http://www.w3.org/2000/svg"
                 fill="#D9EBD1"
                 viewBox="0 0 24 24"
-                stroke-width="1.5"
+                strokeWidth="1.5"
                 stroke="#80C45F"
-                class="w-6 h-6"
+                className="w-6 h-6"
               >
                 <path
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
                   d="M9 12.75L11.25 15 15 9.75M21 12a9 9 0 11-18 0 9 9 0 0118 0z"
                 />
               </svg>
@@ -248,13 +248,13 @@ const Pricing = () => {
                 xmlns="http://www.w3.org/2000/svg"
                 fill="#D9EBD1"
                 viewBox="0 0 24 24"
-                stroke-width="1.5"
+                strokeWidth="1.5"
                 stroke="#80C45F"
-                class="w-6 h-6"
+                className="w-6 h-6"
               >
                 <path
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
                   d="M9 12.75L11.25 15 15 9.75M21 12a9 9 0 11-18 0 9 9 0 0118 0z"
                 />
               </svg>
@@ -265,13 +265,13 @@ const Pricing = () => {
                 xmlns="http://www.w3.org/2000/svg"
                 fill="#D9EBD1"
                 viewBox="0 0 24 24"
-                stroke-width="1.5"
+                strokeWidth="1.5"
                 stroke="#80C45F"
-                class="w-6 h-6"
+                className="w-6 h-6"
               >
                 <path
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
                   d="M9 12.75L11.25 15 15 9.75M21 12a9 9 0 11-18 0 9 9 0 0118 0z"
                 />
               </svg>
@@ -282,13 +282,13 @@ const Pricing = () => {
                 xmlns="http://www.w3.org/2000/svg"
                 fill="#D9EBD1"
                 viewBox="0 0 24 24"
-                stroke-width="1.5"
+                strokeWidth="1.5"
                 stroke="#80C45F"
-                class="w-6 h-6"
+                className="w-6 h-6"
               >
                 <path
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
                   d="M9 12.75L11.25 15 15 9.75M21 12a9 9 0 11-18 0 9 9 0 0118 0z"
                 />
               </svg>
@@ -299,13 +299,13 @@ const Pricing = () => {
                 xmlns="http://www.w3.org/2000/svg"
                 fill="#D9EBD1"
                 viewBox="0 0 24 24"
-                stroke-width="1.5"
+                strokeWidth="1.5"
                 stroke="#80C45F"
-                class="w-6 h-6"
+                className="w-6 h-6"
               >
                 <path
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
                   d="M9 12.75L11.25 15 15 9.75M21 12a9 9 0 11-18 0 9 9 0 0118 0z"
                 />
               </svg>
