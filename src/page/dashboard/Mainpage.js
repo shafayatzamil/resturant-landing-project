@@ -1,11 +1,20 @@
 import React from 'react';
 
-const Orders = () => {
+const Mainpage = () => {
     return (
-        <div className='px-2'>
+        <div className='px-2 grid grid-cols-5 gap-4'>
+            {/* grap and order box */}
+            <div className='col-span-3'>
 
-            {/* navbar of orders */}
-            <div className="navbar bg-base-100 rounded-md">
+                <div>
+                    Grap box
+                </div>
+                {/* orders main page */}
+                <div>
+                <div className='mt-8'>
+            <div className="overflow-x-auto bg-base-100 rounded-lg">
+         <h2 className='p-2 text-xl font-semibold'>Orders</h2>
+         <div className="navbar bg-base-100 rounded-md">
             <div className="flex-1">
            <div className='p-2 bg-[#D8F3E9] rounded-md mr-2'>
            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" className="w-4 h-4">
@@ -46,42 +55,7 @@ const Orders = () => {
             <h5 className='text-xs'>Total orders</h5>
              </div>
             </div>
-
-
-
-            <div className="flex-1">
-           <div className='p-2 bg-[#D8F3E0] rounded-md mr-2'>
-           <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="#22DD56" className="w-4 h-4">
-            <path fillRule="evenodd" d="M1.72 5.47a.75.75 0 011.06 0L9 11.69l3.756-3.756a.75.75 0 01.985-.066 12.698 12.698 0 014.575 6.832l.308 1.149 2.277-3.943a.75.75 0 111.299.75l-3.182 5.51a.75.75 0 01-1.025.275l-5.511-3.181a.75.75 0 01.75-1.3l3.943 2.277-.308-1.149a11.194 11.194 0 00-3.528-5.617l-3.809 3.81a.75.75 0 01-1.06 0L1.72 6.53a.75.75 0 010-1.061z" clipRule="evenodd" />
-            </svg>
-
-           </div>
-           <div>
-            <h3 className='font-bold' >$1280</h3>
-            <h5 className='text-xs'>Sales Today</h5>
-             </div>
             </div>
-
-
-
-            <div className="flex-1">
-           <div className='p-2 bg-[#F3DBD8] rounded-md mr-2'>
-           <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="#DD4422" className="w-4 h-4">
-            <path fillRule="evenodd" d="M15.22 6.268a.75.75 0 01.968-.432l5.942 2.28a.75.75 0 01.431.97l-2.28 5.941a.75.75 0 11-1.4-.537l1.63-4.251-1.086.483a11.2 11.2 0 00-5.45 5.174.75.75 0 01-1.199.19L9 12.31l-6.22 6.22a.75.75 0 11-1.06-1.06l6.75-6.75a.75.75 0 011.06 0l3.606 3.605a12.694 12.694 0 015.68-4.973l1.086-.484-4.251-1.631a.75.75 0 01-.432-.97z" clipRule="evenodd" />
-            </svg>
-
-           </div>
-           <div>
-            <h3 className='font-bold' >$45,283</h3>
-            <h5 className='text-xs'>Sales This Month</h5>
-             </div>
-            </div>
-            </div>
-
-
-            <div className='mt-8'>
-            <div className="overflow-x-auto bg-base-100 rounded-lg">
-         <h2 className='p-2 text-xl font-semibold'>Orders</h2>
          <hr />
   <table className="table table-compact w-full">
     {/* table header */}
@@ -161,8 +135,31 @@ const Orders = () => {
   </table>
 </div>
             </div>
+                </div>
+            </div>
+
+
+
+            {/* advatagment box+ driver box */}
+            <div className='col-span-2'>
+                <div className='bg-slate-600 p-4 rounded-lg text-white'>
+                    <h2 className='text-md mb-3'>Current offer</h2>
+                    <p className='text-xs mb-3'>Every purchase of $100 of above you 
+                    will be getting a 15% discount.</p>
+                    <button className=" px-4 py-2 rounded-md bg-[#21D997] text-white flex items-center gap-1"> 
+                  <div><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-5">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M9.594 3.94c.09-.542.56-.94 1.11-.94h2.593c.55 0 1.02.398 1.11.94l.213 1.281c.063.374.313.686.645.87.074.04.147.083.22.127.324.196.72.257 1.075.124l1.217-.456a1.125 1.125 0 011.37.49l1.296 2.247a1.125 1.125 0 01-.26 1.431l-1.003.827c-.293.24-.438.613-.431.992a6.759 6.759 0 010 .255c-.007.378.138.75.43.99l1.005.828c.424.35.534.954.26 1.43l-1.298 2.247a1.125 1.125 0 01-1.369.491l-1.217-.456c-.355-.133-.75-.072-1.076.124a6.57 6.57 0 01-.22.128c-.331.183-.581.495-.644.869l-.213 1.28c-.09.543-.56.941-1.11.941h-2.594c-.55 0-1.02-.398-1.11-.94l-.213-1.281c-.062-.374-.312-.686-.644-.87a6.52 6.52 0 01-.22-.127c-.325-.196-.72-.257-1.076-.124l-1.217.456a1.125 1.125 0 01-1.369-.49l-1.297-2.247a1.125 1.125 0 01.26-1.431l1.004-.827c.292-.24.437-.613.43-.992a6.932 6.932 0 010-.255c.007-.378-.138-.75-.43-.99l-1.004-.828a1.125 1.125 0 01-.26-1.43l1.297-2.247a1.125 1.125 0 011.37-.491l1.216.456c.356.133.751.072 1.076-.124.072-.044.146-.087.22-.128.332-.183.582-.495.644-.869l.214-1.281z" />
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M15 12a3 3 0 11-6 0 3 3 0 016 0z" />
+                    </svg></div>
+
+                    <div>Manage offer! </div></button>
+                </div>
+                <div></div>
+                <div></div>
+            </div>
+           
         </div>
     );
 };
 
-export default Orders;
+export default Mainpage;

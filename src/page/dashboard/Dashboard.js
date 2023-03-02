@@ -1,7 +1,10 @@
 import React from "react";
-import { Link, Outlet } from "react-router-dom";
+import { Link, Outlet, useNavigate,  } from "react-router-dom";
 
 const Dashboard = () => {
+  const navigate = useNavigate();
+  // navigate("Orders");
+
   return (
     <div>
       <div className="drawer drawer-mobile">
@@ -45,7 +48,7 @@ const Dashboard = () => {
               </Link>
             </li>
             <li>
-              <Link to="Dashboard">Dashboard</Link>
+              <Link to="dashboard/mainpage">Dashboard</Link>
             </li>
             <li>
               <Link to="dashboard/Orders">Orders</Link>
