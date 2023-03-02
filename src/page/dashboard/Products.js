@@ -45,6 +45,23 @@ const Products = () => {
 
 
             <div className='grid grid-cols-4 gap-3'>
+                <div className='card bg-base-100 shadow-xl px-3 flex justify-center items-center '>
+                    {/* The button to open modal */}
+                    {/* The button to open modal */}
+<label htmlFor="my-modal-5" className="btn btn-outline text-center  border px-16 py-28">+ add new product</label>
+
+<input type="checkbox" id="my-modal-5" className="modal-toggle relative " />
+<div className="modal ">
+  <div className="modal-box absolute right-1 top-1  w-1/3 h-screen max-w-5xl">
+    <h3 className="font-bold text-lg">Congratulations random Internet user!</h3>
+    <p className="py-4">You've been selected for a chance to get one year of subscription to use Wikipedia for free!</p>
+    <div className="modal-action">
+      <label htmlFor="my-modal-5" className="btn">Yay!</label>
+    </div>
+  </div>
+</div>
+                    {/* <button className='text-9xl border p-12'>+</button> */}
+                </div>
 
                 {/* card 1 */}
             <div className="card card-compact  bg-base-100 shadow-xl px-3">
