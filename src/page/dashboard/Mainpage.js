@@ -1,14 +1,57 @@
 import React from 'react';
-
+import devivalybike from "../../image/asset/food-delivery.png";
 const Mainpage = () => {
     return (
         <div className='px-2 grid grid-cols-5 gap-4'>
             {/* grap and order box */}
             <div className='col-span-3'>
 
-                <div>
-                    Grap box
+                <div className='p-2 bg-base-100 rounded-lg'>
+                    <div className='flex gap-3'>
+                        <h2>Sales</h2>
+                        <button  className='text-sm border px-3 py-1'>This Month</button>
+                    </div>
+                    <div className='flex'>
+                        {/* grap */}
+                        <div className='w-3/5'>Grap in array</div>
+
+                        {/* icons */}
+                        <div className=''>
+                            <div className='flex mb-2'>
+                                <div className='bg-[#D8F3E0] rounded-md px-2 py-3 mr-2'><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="#22DD56" className="w-4 h-4">
+                                <path fillRule="evenodd" d="M1.72 5.47a.75.75 0 011.06 0L9 11.69l3.756-3.756a.75.75 0 01.985-.066 12.698 12.698 0 014.575 6.832l.308 1.149 2.277-3.943a.75.75 0 111.299.75l-3.182 5.51a.75.75 0 01-1.025.275l-5.511-3.181a.75.75 0 01.75-1.3l3.943 2.277-.308-1.149a11.194 11.194 0 00-3.528-5.617l-3.809 3.81a.75.75 0 01-1.06 0L1.72 6.53a.75.75 0 010-1.061z" clipRule="evenodd" />
+                                </svg></div>
+                                <div>
+                                    <h2>$1280</h2>
+                                    <p className='text-xs'>Sales Today</p>
+                                </div>
+                            </div>
+
+                            <div className='flex mb-2'>
+                                <div className='bg-[#F3DBD8] rounded-md px-2 py-3 mr-2'><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="#DD4422" className="w-4 h-4">
+                                <path fillRule="evenodd" d="M15.22 6.268a.75.75 0 01.968-.432l5.942 2.28a.75.75 0 01.431.97l-2.28 5.941a.75.75 0 11-1.4-.537l1.63-4.251-1.086.483a11.2 11.2 0 00-5.45 5.174.75.75 0 01-1.199.19L9 12.31l-6.22 6.22a.75.75 0 11-1.06-1.06l6.75-6.75a.75.75 0 011.06 0l3.606 3.605a12.694 12.694 0 015.68-4.973l1.086-.484-4.251-1.631a.75.75 0 01-.432-.97z" clipRule="evenodd" />
+                                </svg></div>
+                                <div>
+                                    <h2>$45,283</h2>
+                                    <p className='text-xs'>Sales Sales This Month</p>
+                                </div>
+                            </div>
+
+                            <div className='flex mb-2'>
+                                <div className='bg-[#D8F3E0] rounded-md px-2 py-3 mr-2'><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="#22DD56" className="w-4 h-4">
+                                <path fillRule="evenodd" d="M1.72 5.47a.75.75 0 011.06 0L9 11.69l3.756-3.756a.75.75 0 01.985-.066 12.698 12.698 0 014.575 6.832l.308 1.149 2.277-3.943a.75.75 0 111.299.75l-3.182 5.51a.75.75 0 01-1.025.275l-5.511-3.181a.75.75 0 01.75-1.3l3.943 2.277-.308-1.149a11.194 11.194 0 00-3.528-5.617l-3.809 3.81a.75.75 0 01-1.06 0L1.72 6.53a.75.75 0 010-1.061z" clipRule="evenodd" />
+                                </svg></div>
+                                <div>
+                                    <h2>$3,39,754</h2>
+                                    <p className='text-xs'>Sales This Year</p>
+                                </div>
+                            </div>
+                        
+                        </div>
+                    </div>
                 </div>
+
+
                 {/* orders main page */}
                 <div>
                 <div className='mt-8'>
@@ -142,7 +185,7 @@ const Mainpage = () => {
 
             {/* advatagment box+ driver box */}
             <div className='col-span-2'>
-                <div className='bg-slate-600 p-4 rounded-lg text-white'>
+                <div className='bg-slate-600 p-4 rounded-lg text-white mb-4'>
                     <h2 className='text-md mb-3'>Current offer</h2>
                     <p className='text-xs mb-3'>Every purchase of $100 of above you 
                     will be getting a 15% discount.</p>
@@ -154,8 +197,58 @@ const Mainpage = () => {
 
                     <div>Manage offer! </div></button>
                 </div>
-                <div></div>
-                <div></div>
+                {/* driver */}
+                <div className='bg-base-100 px-4 py-2 rounded-lg mb-4' >
+                   <div className='flex justify-between p-2'>
+                    <h2>Drivers</h2>
+                    <button>
+                        See All  >
+                    </button>
+                   </div>
+                   <hr />
+                   <div className='flex justify-between gap-2 p-2'>
+                    <img src="https://images.unsplash.com/photo-1633332755192-727a05c4013d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8dXNlcnxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=400&q=60" className='w-8 rounded-full' alt="" />
+                    <div>
+                        <h2>Monirul Polash</h2>
+                        <p className='text-xs'>2 orders being delivered</p>
+                    </div>
+                    <div>
+                        <img src={devivalybike} className='w-8' alt="" />
+                    </div>
+                   </div>
+                   <div className='flex justify-between gap-2 p-2'>
+                    <img src="https://images.unsplash.com/photo-1633332755192-727a05c4013d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8dXNlcnxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=400&q=60" className='w-8 rounded-full' alt="" />
+                    <div>
+                        <h2>Monkey D Luffy</h2>
+                        <p className='text-xs'>2 orders being delivered</p>
+                    </div>
+                    <div>
+                        <img src={devivalybike} className='w-8' alt="" />
+                    </div>
+                   </div>
+                   <div className='flex justify-between gap-2 p-2'>
+                    <img src="https://images.unsplash.com/photo-1633332755192-727a05c4013d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8dXNlcnxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=400&q=60" className='w-8 rounded-full' alt="" />
+                    <div>
+                        <h2>Roronoa Zoro</h2>
+                        <p className='text-xs'>On a break now</p>
+                    </div>
+                    <div>
+                        <img src={devivalybike} className='w-8' alt="" />
+                    </div>
+                   </div>
+                </div>
+                {/* map */}
+                <div className='bg-slate-600 rounded-lg' >
+                <iframe title='location'
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d922.4404865817828!2d91.80406522857352!3d22.36261575979807!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x30acd8f0f0b0326d%3A0x73e15709d8d8790f!2sYousuf%20Chowdhury%20Building!5e0!3m2!1sen!2sbd!4v1677187280579!5m2!1sen!2sbd"
+                    width="320"
+                    height="150"
+                    style={{ border: "0" ,backgroundColor:"snow" }}
+                    allowfullscreen="true"
+                    allowtransparency="false"
+                    loading="lazy"
+                ></iframe>        
+                </div>
             </div>
            
         </div>
