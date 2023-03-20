@@ -107,7 +107,7 @@ const Pricing = () => {
             </button>
           </div>
         </div>
-        <div className=" rounded-xl shadow-2xl shadow-gray-400 drop-shadow-2xl px-3 py-8">
+        <div className=" rounded-xl shadow-2xl shadow-gray-400 drop-shadow-md px-3 py-8">
           <h5 className="text-base">Small chain </h5>
           <h4 className="mb-3">
             <span className="text-3xl">$50</span>
