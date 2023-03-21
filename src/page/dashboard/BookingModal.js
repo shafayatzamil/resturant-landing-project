@@ -3,6 +3,7 @@ import { useForm } from "react-hook-form";
 import Select from "react-select";
 
 import "./BookingModal.css";
+import { toast } from "react-hot-toast";
 
 const BookingModal = () => {
   const {
@@ -25,7 +26,7 @@ const BookingModal = () => {
   };
 
   const handleProduct = (data) => {
-    console.log(data, data.image[0], selectedOptions);
+    // console.log(data, data.image[0], selectedOptions);
 
     const product = data;
 
@@ -44,6 +45,7 @@ const BookingModal = () => {
     //   });
 
     // product
+    // https://resturant-mangement-server.vercel.app/
     fetch("http://localhost:5000/addproduct", {
       method: "POST",
       headers: {
@@ -54,13 +56,13 @@ const BookingModal = () => {
       .then((res) => res.json())
       .then((data) => {
         if (data.sucess) {
-          console.log(data.message);
+          toast(data.message);
         } else {
-          console.error(data.error);
+          toast(data.error);
         }
       })
       .catch((err) => {
-        console.error(err.message);
+        toast(err.message);
       });
   };
 
@@ -157,7 +159,7 @@ const BookingModal = () => {
             {/* Upload Images */}
             <div className="form-control  mt-6">
               <div className="grid grid-cols-2 gap-1">
-                <div className="relative">
+                {/* <div className="relative">
                   <h2 className="font-semibold">Upload photo</h2>
                   <p className="text-xs">JPG, PNG, max 2MB</p>
                   <label
@@ -174,7 +176,18 @@ const BookingModal = () => {
                     placeholder=""
                     {...register("image")}
                   />
-                </div>
+                </div> */}
+                <label className="label">
+                  <span className="label-text">Product image url:</span>
+                </label>
+                <input
+                  type="text"
+                  placeholder="image"
+                  {...register("image")}
+                  className="py-2  border-2 text-black"
+                />
+
+                <div></div>
               </div>
             </div>
 

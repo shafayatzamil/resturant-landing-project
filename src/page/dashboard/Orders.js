@@ -5,12 +5,12 @@ const Orders = () => {
   const { data: orders = [] } = useQuery({
     queryKey: ["order"],
     queryFn: async () => {
+      // https://resturant-mangement-server.vercel.app/
       const res = await fetch(`http://localhost:5000/order`);
       const data = await res.json();
       return data.data;
     },
   });
-  console.log(orders);
 
   return (
     <div className="px-2">

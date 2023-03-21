@@ -15,6 +15,7 @@ const SingleProducts = ({ product }) => {
     //   orderId: Math.floor(Math.random() * 100) * Date.now(),
     // };
     // console.log(order);
+    // https://resturant-mangement-server.vercel.app/
     // fetch("http://localhost:5000/order", {
     //   method: "POST",
     //   headers: {

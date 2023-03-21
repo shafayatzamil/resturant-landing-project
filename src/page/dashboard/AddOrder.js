@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { useForm } from "react-hook-form";
+import { toast } from "react-hot-toast";
 
 const AddOrder = ({ product }) => {
   const { _id, name, image, ingredient, price, vegans, weight, calories } =
@@ -27,6 +28,7 @@ const AddOrder = ({ product }) => {
     };
     // console.log(order);
 
+    // https://resturant-mangement-server.vercel.app/
     fetch("http://localhost:5000/addorder", {
       method: "POST",
       headers: {
@@ -37,13 +39,13 @@ const AddOrder = ({ product }) => {
       .then((res) => res.json())
       .then((data) => {
         if (data.sucess) {
-          console.log(data.message);
+          toast(data.message);
         } else {
-          console.error(data.error);
+          toast(data.error);
         }
       })
       .catch((err) => {
-        console.error(err.message);
+        toast(err.message);
       });
   };
 
