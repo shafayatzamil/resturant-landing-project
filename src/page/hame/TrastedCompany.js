@@ -14,11 +14,11 @@ const TrastedCompany = () => {
         {" "}
         <h2
           style={{ color: "#9798AA", fontSize: "10px" }}
-          className="tracking-widest text-center mb-6"
+          className="tracking-widest  font-medium text-center mb-8"
         >
           SOFTWARE BUILT FOR AND TRUSTED BY 250+ COMAPNY
         </h2>
-        <div className="flex justify-center items-center gap-10">
+        <div className="flex justify-center items-center gap-20">
           <img src={compani5} className="w-20 h-3" alt="" />
           <img src={compani4} className="w-20 h-5" alt="" />
           <img src={compani2} className="w-20  h-6" alt="" />
@@ -30,7 +30,7 @@ const TrastedCompany = () => {
       <div className="mt-20">
         <h4
           style={{ color: "#9798AA", fontSize: "10px" }}
-          className="text-center tracking-widest"
+          className="text-center font-medium tracking-widest mb-2"
         >
           THIS IS PLATFORM
         </h4>
@@ -44,35 +44,35 @@ const TrastedCompany = () => {
         </p>
 
         <div className="flex justify-center align-center gap-12 mt-2">
-          <div className="flex justify-center align-center gap-2 ">
+          <div className="flex justify-center items-center gap-2 ">
             <div>
               {" "}
               <img
                 src={speedIcon}
-                className="w-10 h-10 p-2 bg-indigo-100 rounded-lg"
+                className="w-12 h-10 p-2 bg-indigo-100 rounded-lg"
                 alt=""
               />
             </div>
             <div>
               {" "}
-              <h4 className=" text-xs">Fast deploy</h4>
+              <h4 className=" text-xs font-semibold">Fast deploy</h4>
             </div>
           </div>
-          <div className="flex justify-center align-center gap-2">
+          <div className="flex justify-center items-center gap-2">
             <img
               src={easytoLearnIcon}
-              className="w-10 p-2 bg-indigo-100 rounded-lg"
+              className="w-12 h-10 p-2 bg-indigo-100 rounded-lg"
               alt=""
             />
-            <h4 className="text-center text-xs">Easy to learn</h4>
+            <h4 className=" font-semibold text-xs">Easy to learn</h4>
           </div>
-          <div className="flex justify-center align-center gap-2">
+          <div className="flex justify-center items-center gap-2">
             <img
               src={speedIcon}
-              className="w-10 p-2 gap-2  bg-indigo-100 rounded-lg"
+              className="w-12 h-10 p-2 gap-2  bg-indigo-100 rounded-lg"
               alt=""
             />
-            <h4 className="text-center text-xs">Feature rich</h4>
+            <h4 className=" font-semibold text-xs">Feature rich</h4>
           </div>
         </div>
       </div>

@@ -1,3 +1,4 @@
+
 import React from "react";
 
 const Pricing = () => {
@@ -5,16 +6,17 @@ const Pricing = () => {
     <div>
       <h5
         style={{ color: "#9798AA" }}
-        className="  text-[10px] text-center  tracking-widest"
+        className="  text-[10px] text-center mb-2 font-semibold  tracking-widest"
       >
         SALE AS YOU GROW
       </h5>
-      <h3 className="text-2xl text-center pb-3">Pricing</h3>
-      <h4 style={{ color: "#62677F" }} className="text-base text-center">
+      <h3 className="text-2xl text-center pb-4">Pricing</h3>
+      <h4 style={{ color: "#62677F" }} className="text-base text-center mb-6">
         Choose plan that suits you business best
       </h4>
-      {/* all box of pricing */}
 
+      
+      {/* all box of pricing */}
       <div className="flex max-w-3xl justify-center  items-center mx-auto gap-2 mb-16">
         {/* single box of procing */}
         <div className="rounded  p-2">
@@ -100,15 +102,21 @@ const Pricing = () => {
 
             <button
               style={{ backgroundColor: "#0070FF" }}
-              className=" text-white rounded-lg w-40 px-3 py-1 mt-6"
+              className=" text-white rounded-lg w-48 px-3 py-2 mt-6"
             >
               {" "}
               Choose basic plan
+            
+            <span className="fa-solid fa-angle-right fa-beat ml-1"></span>
+
             </button>
           </div>
         </div>
         <div className=" rounded-xl shadow-2xl shadow-gray-400 drop-shadow-md px-3 py-8">
+          <div className="flex justify-between">
           <h5 className="text-base">Small chain </h5>
+          <h4 className="text-[#A68E40] text-xs bg-[#E9E1C6] px-3 py-1 rounded-2xl">👑 Best offer</h4>
+          </div>
           <h4 className="mb-3">
             <span className="text-3xl">$50</span>
             <span className="text-[12px]"> \month</span>
@@ -206,10 +214,11 @@ const Pricing = () => {
             </div>
             <button
               style={{ backgroundColor: "#0070FF" }}
-              className=" rounded-lg w-40 text-white px-3 py-1 mt-6"
+              className=" rounded-lg w-52 text-white px-3 py-2 mt-6"
             >
               {" "}
               Choose popular plan
+              <span className="fa-solid fa-angle-right fa-beat ml-1"></span>
             </button>
           </div>
         </div>
@@ -313,32 +322,17 @@ const Pricing = () => {
             </div>
             <button
               style={{ backgroundColor: "#2E384E" }}
-              className="rounded-lg w-40 px-3 py-1 mt-6 text-white"
+              className="rounded-lg w-52 px-3 py-2 mt-6 text-white"
             >
               {" "}
-              <span className="">
-                {" "}
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  fill="white"
-                  viewBox="0 0 24 24"
-                  strokeWidth={1.5}
-                  stroke="black"
-                  className="w-5  inline mr-1 "
-                >
-                  <path
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    d="M21.75 6.75v10.5a2.25 2.25 0 01-2.25 2.25h-15a2.25 2.25 0 01-2.25-2.25V6.75m19.5 0A2.25 2.25 0 0019.5 4.5h-15a2.25 2.25 0 00-2.25 2.25m19.5 0v.243a2.25 2.25 0 01-1.07 1.916l-7.5 4.615a2.25 2.25 0 01-2.36 0L3.32 8.91a2.25 2.25 0 01-1.07-1.916V6.75"
-                  />
-                </svg>
-              </span>
+              <span className="mr-1 fa-solid fa-envelope fa-shake"> </span>
               Request an offer
             </button>
           </div>
         </div>
       </div>
     </div>
+    
   );
 };
 

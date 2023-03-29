@@ -6,7 +6,9 @@ const Orders = () => {
     queryKey: ["order"],
     queryFn: async () => {
       // https://resturant-mangement-server.vercel.app/
-      const res = await fetch(`http://localhost:5000/order`);
+      const res = await fetch(
+        `https://resturant-mangement-server.vercel.app/order`
+      );
       const data = await res.json();
       return data.data;
     },

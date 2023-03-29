@@ -8,7 +8,7 @@ import arrowImage from "../../image/Section 1/Vector 21.png";
 const SuceessfulStories = () => {
   return (
     <div>
-      <h5 className="text-xs text-center tracking-wider text-[#9798AA]">
+      <h5 className="text-xs text-center tracking-wider font-semibold mb-1 text-[#9798AA]">
         WE LOVE TO SEE YOU GROW
       </h5>
       <h3 className="text-[#181E28] text-center text-4xl mb-4">
@@ -38,21 +38,8 @@ const SuceessfulStories = () => {
               An interview with Avoburger CEO Mark Smith
             </h5>
             <div className="mt-4 flex gap-4 items-center justify-center">
-              <button className="border rounded-lg px-4 py-1 text-sm border-cyan-200">
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  fill="black"
-                  viewBox="0 0 24 24"
-                  strokeWidth="1.5"
-                  stroke="currentColor"
-                  className="w-4 h-4 inline mx-1"
-                >
-                  <path
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    d="M5.25 5.653c0-.856.917-1.398 1.667-.986l11.54 6.348a1.125 1.125 0 010 1.971l-11.54 6.347a1.125 1.125 0 01-1.667-.985V5.653z"
-                  />
-                </svg>
+              <button className="border rounded-lg px-5 py-1 text-sm border-cyan-200">
+                <i className="fa-solid fa-play fa-bounce m-1"></i>
                 Watch interview
               </button>
               <button className=" px-2 py-1 text-sm">
@@ -63,7 +50,7 @@ const SuceessfulStories = () => {
         </div>
       </div>
       {/* platform boost the buissness */}
-      <div className="py-12 bg-gradient-to-t from-indigo-300 to-state-100 pb-12 relative ">
+      <div className="py-12 w-6xl bg-gradient-to-t from-indigo-300 to-state-100 pb-12 relative ">
         <h3 className="text-center text-2xl mb-2">
           {" "}
           Let platform boost your business!
@@ -74,20 +61,7 @@ const SuceessfulStories = () => {
         </h5>
         <div className="mt-4 flex gap-4 items-center justify-center">
           <button className="border rounded-lg px-6 py-1 bg-white border-cyan-200 text-base">
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              fill="black"
-              viewBox="0 0 24 24"
-              strokeWidth="1.5"
-              stroke="currentColor"
-              className="w-4 h-4 inline mx-1"
-            >
-              <path
-                strokeLinecap="round"
-                strokeLinejoin="round"
-                d="M5.25 5.653c0-.856.917-1.398 1.667-.986l11.54 6.348a1.125 1.125 0 010 1.971l-11.54 6.347a1.125 1.125 0 01-1.667-.985V5.653z"
-              />
-            </svg>
+            <i className="fa-solid fa-play fa-bounce m-1"></i>
             Watch video
           </button>
           <button

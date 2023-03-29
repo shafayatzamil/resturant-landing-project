@@ -12,19 +12,19 @@ import earphoneimage2 from "../../image/section 4/decoration - airpod.png";
 const Comunication = () => {
   return (
     <div className="my-20">
-      <div className="flex max-w-3xl mx-auto gap-20">
+      <div className="flex max-w-5xl mx-auto gap-20">
         <div className="relative basis-1/2">
           <img src={delevarmanImage} className="w-80 mb-3 " alt="" />
           <div>
             <img
               src={locationImage}
-              className="w-64 absolute left-20 "
+              className="w-80 absolute top-32 left-20 "
               alt=""
             />
-            <img src={phoneImage} className="absolute w-32" alt="" />
+            <img src={phoneImage} className="absolute w-36" alt="" />
             <img
               src={airpodImage}
-              className="absolute w-28 -right-12 top-28"
+              className="absolute w-28 -right-8 top-32"
               alt=""
             />
             <img
@@ -34,17 +34,17 @@ const Comunication = () => {
             />
             <img
               src={calldriverImage}
-              className="absolute w-16 top-3 left-36"
+              className="absolute w-20 top-3 left-36"
               alt=""
             />
             <img
               src={earphoneimage1}
-              className="absolute w-20 top-3 -right-12"
+              className="absolute w-20 top-3 -right-8"
               alt=""
             />
             <img
               src={earphoneimage2}
-              className="absolute w-20 top-3 right-4"
+              className="absolute w-20 top-3 right-12"
               alt=""
             />
             <div className="h-64 w-64  bg-slate-200 absolute rounded-2xl -top-8 -left-28  -z-50 "></div>
@@ -52,7 +52,7 @@ const Comunication = () => {
           </div>
         </div>
         <div className="basis-1/2">
-          <h4 className="text-xs tracking-widest font-semibold text-[#0070FF] px-3 py-2 w-36 rounded-lg bg-[#E5F1FF] ">
+          <h4 className="text-xs tracking-widest font-semibold text-[#0070FF] px-4 py-3 w-36 rounded-xl bg-[#E5F1FF] ">
             COMMUNICATION
           </h4>
           <h2 className="text-4xl my-2 ">
@@ -71,16 +71,16 @@ const Comunication = () => {
       </div>
 
       {/* horijontal line */}
-      <div className="flex mx-auto justify-center items-center my-24 font-semibold">
+      <section className="w-6xl hidden md:hidden lg:block ">
+      <div className="flex mx-auto w-full justify-center items-center my-24 font-semibold">
         <div className="">
           <h5 className="text-xs px-6 text-center  ">
-            Communicate with your employees
+            Communicate with your <br /> employees
           </h5>
           <div style={{ display: "flex", alignItems: "center" }}>
             <div
-              style={{ flex: 1, backgroundColor: "#0070FF", height: "1px" }}
+              style={{ flex: 1, backgroundColor: "#0070FF", width:"150px" , height: "1px" }}
             />
-
             <svg
               xmlns="http://www.w3.org/2000/svg"
               fill="none"
@@ -95,20 +95,19 @@ const Comunication = () => {
                 d="M9 12.75L11.25 15 15 9.75M21 12a9 9 0 11-18 0 9 9 0 0118 0z"
               />
             </svg>
-
             <div
-              style={{ flex: 1, backgroundColor: "#0070FF", height: "1px" }}
+              style={{ flex: 1, backgroundColor: "#0070FF", width:"130px" , height: "1px" }}
             />
           </div>
         </div>
         <div>
           {" "}
           <h5 className="text-xs px-6 text-center ">
-            Track both drivers and orders
+            Track both drivers <br /> and orders
           </h5>{" "}
           <div style={{ display: "flex", alignItems: "center" }}>
             <div
-              style={{ flex: 1, backgroundColor: "#0070FF", height: "1px" }}
+              style={{ flex: 1, backgroundColor: "#0070FF",width:"130px" , height: "1px" }}
             />
 
             <svg
@@ -127,18 +126,18 @@ const Comunication = () => {
             </svg>
 
             <div
-              style={{ flex: 1, backgroundColor: "#0070FF", height: "1px" }}
+              style={{ flex: 1, backgroundColor: "#0070FF", width:"130px" , height: "1px" }}
             />
           </div>
         </div>
         <div>
           {" "}
           <h5 className="text-xs px-6  text-center ">
-            Keep in touch with the customers
+            Keep in touch with the <br /> customers
           </h5>{" "}
           <div style={{ display: "flex", alignItems: "center" }}>
             <div
-              style={{ flex: 1, backgroundColor: "#0070FF", height: "1px" }}
+              style={{ flex: 1, backgroundColor: "#0070FF",width:"130px" , height: "1px" }}
             />
 
             <svg
@@ -155,19 +154,19 @@ const Comunication = () => {
                 d="M9 12.75L11.25 15 15 9.75M21 12a9 9 0 11-18 0 9 9 0 0118 0z"
               />
             </svg>
-
+            
             <div
-              style={{ flex: 1, backgroundColor: "#0070FF", height: "1px" }}
+              style={{ flex: 1, backgroundColor: "#0070FF", width:"130px" , height: "1px" }}
             />
           </div>
         </div>
         <div>
           <h5 className="text-xs px-6  text-center ">
-            Manage delivery with your supplier
+            Manage delivery with <br /> your supplier
           </h5>
           <div style={{ display: "flex", alignItems: "center" }}>
             <div
-              style={{ flex: 1, backgroundColor: "#0070FF", height: "1px" }}
+              style={{ flex: 1, backgroundColor: "#0070FF", width:"130px" , height: "1px" }}
             />
 
             <svg
@@ -186,11 +185,12 @@ const Comunication = () => {
             </svg>
 
             <div
-              style={{ flex: 1, backgroundColor: "#0070FF", height: "1px" }}
+              style={{ flex: 1, backgroundColor: "#0070FF", width:"130px" , height: "1px" }}
             />
           </div>
         </div>
       </div>
+      </section>
     </div>
   );
 };

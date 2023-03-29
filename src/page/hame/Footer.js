@@ -2,7 +2,7 @@ import React from "react";
 
 const Footer = () => {
   return (
-    <div className="flex py-6 max-w-3xl mx-auto gap-4 h-48">
+    <div className="flex py-6 max-w-3xl mx-auto gap-8 h-48">
       <h2 className="basis-2/4 font-bold">Platform</h2>
       <div className="text-[#62677F] text-sm">
         <ul>
@@ -24,9 +24,10 @@ const Footer = () => {
       </div>
       <div className="text-[#62677F] text-sm">
         <ul>
-          <li className="font-bold mb-2">Instagram</li>
-          <li>Facebook</li>
-          <li>Youtube</li>
+          <li className="font-bold  mb-2 w-24">Social Media</li>
+          <li className=""> <span  className="fa-brands fa-square-facebook fa-beat-fade"></span> Facebook</li>
+          <li> <span  className="fa-brands fa-square-youtube fa-beat-fade"></span>Youtube</li>
+          <li> <span  className="fa-brands fa-square-instagram fa-beat-fade"></span>Instagram</li>
         </ul>
       </div>
       <div className="text-[#62677F] text-sm">

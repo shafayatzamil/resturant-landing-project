@@ -159,7 +159,7 @@ const BookingModal = () => {
             {/* Upload Images */}
             <div className="form-control  mt-6">
               <div className="grid grid-cols-2 gap-1">
-                {/* <div className="relative">
+                <div className="relative">
                   <h2 className="font-semibold">Upload photo</h2>
                   <p className="text-xs">JPG, PNG, max 2MB</p>
                   <label
@@ -176,8 +176,8 @@ const BookingModal = () => {
                     placeholder=""
                     {...register("image")}
                   />
-                </div> */}
-                <label className="label">
+                </div>
+                {/* <label className="label">
                   <span className="label-text">Product image url:</span>
                 </label>
                 <input
@@ -185,7 +185,7 @@ const BookingModal = () => {
                   placeholder="image"
                   {...register("image")}
                   className="py-2  border-2 text-black"
-                />
+                /> */}
 
                 <div></div>
               </div>

@@ -10,22 +10,22 @@ import networkImage from "../../image/section 3/Union-1.png";
 
 const Managment = () => {
   return (
-    <div className=" mx-auto max-w-3xl flex justify-center  items-center mt-36">
+    <div className=" mx-auto max-w-6xl flex justify-center  items-center mt-36">
       <div>
         <h2
           style={{ color: "#0070FF", backgroundColor: "#E5F1FF" }}
-          className="text-xs px-3 py-2  w-32 rounded-lg tracking-widest -mb-4"
+          className="text-xs font-semibold px-4 py-3  w-32 rounded-xl tracking-widest -mb-4"
         >
           MANAGEMENT
         </h2>
-        <div className="flex justify-between items-center gap-16">
+        <div className="flex justify-around items-center gap-36">
           <div>
             <h2 style={{ color: "#181E28" }} className="text-3xl mb-2">
               Focus on your business
               <br /> We’ll do the rest!
             </h2>
 
-            <div style={{ color: "#62677F" }} className="text-sm">
+            <div style={{ color: "#62677F" }} className="text-sm w-96">
               <p>
                 <span className="font-bold">Platform </span>
                 takes care of your orders and employees, lets you manage sales,
@@ -39,9 +39,10 @@ const Managment = () => {
               </p>
             </div>
           </div>
-          <div className="relative">
-            <img src={totalSaleImage} alt="" />
 
+          {/* image part */}
+          <div className="relative">
+            <img src={totalSaleImage} className="w-96" alt="" />
             <div>
               <img
                 src={coffeImage}
@@ -77,46 +78,49 @@ const Managment = () => {
 
         {/* icon section */}
 
-        <div className="flex justify-between my-16">
-          <div className="flex gap-2">
+        <div className="flex justify-between  my-16">
+          <div className="flex items-center gap-2">
             <img
               src={networkImage}
-              className="w-10 p-2 bg-indigo-200 rounded-lg"
+              className="w-10 p-3 bg-indigo-200 rounded-lg"
               alt=""
             />
             <h4 className="text-xs font-semibold">
-              All sale statistics in one place
+              All sale statistics <br /> in one place
             </h4>
           </div>
-          <div className="flex gap-2">
+          <div className="flex items-center gap-2">
             <img
               src={BurgerImage}
-              className="w-10 p-2  bg-indigo-200 rounded-lg "
+              className="w-10 p-3  bg-indigo-200 rounded-lg "
               alt=""
             />
-            <h4 className="text-xs font-semibold ">Manage multiple location</h4>
+            <h4 className="text-xs font-semibold ">Manage multiple <br /> location</h4>
           </div>
-          <div className="flex gap-2">
+          <div className="flex items-center gap-2">
             <img
               src={networkImage}
-              className="w-10 p-2  bg-indigo-200 rounded-lg"
+              className="w-10 p-3  bg-indigo-200 rounded-lg"
               alt=""
             />
             <h4 className="text-xs font-semibold">
-              Keep track of marketing campaign
+              Keep track of marketing <br /> campaign
             </h4>
           </div>
-          <div className="flex gap-2">
+          <div className="flex items-center gap-2">
             <img
               src={BurgerImage}
-              className="w-10 p-2  bg-indigo-200 rounded-lg"
+              className="w-10 p-3  bg-indigo-200 rounded-lg"
               alt=""
             />
             <h4 className="text-xs font-semibold ">
-              Fully customizeable suit your business best
+              Fully customizeable suit <br /> your business best
             </h4>
           </div>
         </div>
+
+
+        {/* end */}
       </div>
     </div>
   );
